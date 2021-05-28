@@ -1,6 +1,9 @@
-<?php
 
-echo 'Essa é a view que o CONTROLLER Testes renderizou';
-
-
-?>
+<h1>
+    <?php 
+        echo $titulo; 
+        echo '<br>';
+        echo '<br>';
+        echo $subtitulo;
+    ?>
+</h1>
