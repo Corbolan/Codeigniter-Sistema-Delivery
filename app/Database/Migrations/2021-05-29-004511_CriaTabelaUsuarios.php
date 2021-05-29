@@ -14,6 +14,10 @@ class CriaTabelaUsuarios extends Migration {
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
+            'nome' => [
+                'type' => 'VARCHAR',
+                'constraint' => '50',
+            ],
             'email' => [
                 'type' => 'VARCHAR',
                 'constraint' => '50',

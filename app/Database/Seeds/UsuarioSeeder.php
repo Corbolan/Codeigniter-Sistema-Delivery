@@ -11,7 +11,7 @@ class UsuarioSeeder extends Seeder {
         $usuarioModel = new \App\Models\UsuarioModel;
 
         $usuario = [
-            
+            'nome' => 'Lucio Antonio',
             'email' => 'admin@admmin.com',
             'telefone' => '41 - 9999-9999',
         ];
@@ -19,7 +19,7 @@ class UsuarioSeeder extends Seeder {
         $usuarioModel->protect(false)->insert($usuario);
 
         $usuario = [
-            
+            'nome' => 'Fulano de Tal',
             'email' => 'fulano@email.com',
             'telefone' => '41 - 8888-9999',
         ];
