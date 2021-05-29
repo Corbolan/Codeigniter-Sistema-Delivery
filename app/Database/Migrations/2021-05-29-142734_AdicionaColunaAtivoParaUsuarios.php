@@ -19,7 +19,7 @@ class AdicionaColunaAtivoParaUsuarios extends Migration {
     }
 
     public function down() {
-        $this->forge->dropTable('usuarios', 'ativos');
+        $this->forge->dropColumn('usuarios', 'ativo');
     }
 
 }
